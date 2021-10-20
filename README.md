@@ -23,10 +23,10 @@ After the above process, the whole training data was created, including X_train,
 
 ## Training and Testing
 
-> The model was trained using the script ' DATA_train.py' by simply using command 'python DATA_train.py'. The version of pytorch tested is 0.4.1, the experimental environment is the autonlab cluster with Nvidia GeForce RTX. 
+The model was trained using the script ' DATA_train.py' by simply using command 'python DATA_train.py'. The version of pytorch tested is 0.4.1, the experimental environment is the autonlab cluster with Nvidia GeForce RTX. 
 
-> The training weights are saved in the '/models' folder, in the .pt format. After training, the script 'DATA_test.py' was used to generate the prediction results, by the command ' python DATA_test.py', and the outputs are two images named 'Origin' and 'Predicted', which are the original frames and the predictions. 
+The training weights are saved in the '/models' folder, in the .pt format. After training, the script 'DATA_test.py' was used to generate the prediction results, by the command ' python DATA_test.py', and the outputs are two images named 'Origin' and 'Predicted', which are the original frames and the predictions. 
 
 ## Analysis
 
-> There are two quantitative index: Mean-Squared Error (MSE) and the Structural Similarity Index Measure (SSIM). The values of SSIM range from -1 to 1, with a larger value indicating greater similarity between the predicted frames and the original frames. The script 'compare.py' was used to compute the SSIM and MSE index. 
+There are two quantitative index: Mean-Squared Error (MSE) and the Structural Similarity Index Measure (SSIM). The values of SSIM range from -1 to 1, with a larger value indicating greater similarity between the predicted frames and the original frames. The script 'compare.py' was used to compute the SSIM and MSE index. 
